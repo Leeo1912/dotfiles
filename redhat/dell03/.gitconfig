@@ -1,0 +1,7 @@
+; .gitconfig for redhat
+; Author: Haoran Geng
+; Link: https://github.com/exaithrg/dotfiles
+
+[user]
+	name = genghaoran
+	email = 171180586@smail.nju.edu.cn

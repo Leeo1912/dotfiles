@@ -1,0 +1,20 @@
+# .tcshrc for redhat
+# Author: Liliangcheng 
+# Link: https://github.com/Leeo1912/dotfiles
+
+set cgred = "%{\e[31m%}" # Red Begin
+set cggreen = "%{\e[32m%}" # Green Begin
+set cgyellow = "%{\e[33m%}" # Green Begin
+set cglblue = "%{\e[36m%}" # LightBlue Begin
+set cgdeft = "%{\e[0m%}"  # Reset
+set prompt="%B$cgyellow\D\U\L\I-\S\E\R\V\E\R $cggreen\T\C\S\H $cglblue%c $cgdeft>> %b"
+
+# echo "hello tcsh"
+
+source /usr/edatools/setups/synopsys.csh
+source /usr/edatools/setups/innovus_setup.csh
+source ~/.aliases_tcsh
+
+# not suitable for tcsh
+# source ~/.aliases
+
